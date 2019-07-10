@@ -1,6 +1,6 @@
 nvptx-tools: a collection of tools for use with nvptx-none GCC toolchains.
 
-  * nvptx-none-as: "assembler" for PTX.
+  * nvptx-none-as: "assembler" for PTX (Updated to include Fermi GPUs).
   * nvptx-none-ld: "linker" for PTX.
   * nvptx-none-run: run PTX binaries compiled with -mmainkernel.
   * nvptx-none-run-single: as nvptx-none-run, locked, such that system-wide
@@ -20,4 +20,6 @@ By default, this will use nvptx-none-run found in $PATH, but that can be
 overridden by setting the NVPTX_NONE_RUN environment variable, for example to
 [...]/nvptx-none-run-single.
 
-Report bugs to <https://github.com/MentorEmbedded/nvptx-tools/issues>.
+Report bugs to <https://github.com/RodrigoOt/nvptx-tools/issues>.
+
+Check origem in <https://github.com/MentorEmbedded/nvptx-tools/issues>.
